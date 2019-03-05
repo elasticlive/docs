@@ -21,8 +21,9 @@ npx http-server
 
 You can easily install by using npm.
 
-```text
+```bash
 npm i @elasticlive/sdk
+npm i webrtc-adapter      #Optional lib for lagacy WebRTC API support
 ```
 
 ```javascript
@@ -32,7 +33,10 @@ import ELive from '@elasticlive/sdk'
 {% code-tabs %}
 {% code-tabs-item title="index.html" %}
 ```markup
-<script src="node_modules/@elasticlive/sdk/dist/el.min.js"></script>
+<!-- Optional lib for lagacy WebRTC API support -->
+<script src="node_modules/webrtc-adapter/out/adapter.js"></script>
+
+<script src="node_modules/@elasticlive/sdk/dist/elive.min.js"></script>
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -44,11 +48,14 @@ You can use [jsDelivr CDN](https://www.jsdelivr.com). Please insert in the HTML 
 {% code-tabs %}
 {% code-tabs-item title="index.html" %}
 ```markup
+<!-- Optional lib for lagacy WebRTC API support -->
+<script src="https://cdn.jsdelivr.net/npm/webrtc-adapter/out/adapter.js"></script>
+
 <!-- Latest -->
-<script src=""></script>
+<script src="https://cdn.jsdelivr.net/npm/@elasticlive/sdk/dist/elive.min.js"></script>
 
 <!-- Specific version -->
-<script src="https://cdn.jsdelivr.net/npm/@elasticlive/sdk/el.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@elasticlive/sdk@3.0.0/dist/elive.min.js"></script>
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
