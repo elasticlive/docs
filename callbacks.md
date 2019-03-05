@@ -1,6 +1,6 @@
 # Callbacks
 
-### Init
+## Init
 
 Initialization is complete through `new ELive()`.
 
@@ -8,7 +8,7 @@ Initialization is complete through `new ELive()`.
 live.on('init', () => console.log('init'))
 ```
 
-### onComplete
+## onComplete
 
 Successfully connected via `cast()`, `watch()`, and `call()`.
 
@@ -16,7 +16,7 @@ Successfully connected via `cast()`, `watch()`, and `call()`.
 live.on('init', id => console.log('complete', id))
 ```
 
-### onLocalMedia
+## onLocalMedia
 
 User’s media have been imported.
 
@@ -24,7 +24,7 @@ User’s media have been imported.
 live.on('init', stream => console.log('onLocalMedia', stream))
 ```
 
-### onSearch
+## onSearch
 
 Current broadcasting/communication list or id of designated broadcast/communication has been imported via `search()`.
 
@@ -32,7 +32,7 @@ Current broadcasting/communication list or id of designated broadcast/communicat
 live.on('init', ids => console.log('onSearch', ids))
 ```
 
-### onMessage
+## onMessage
 
 The sender has sent a message via `sendMessage()`, and you successfully received the message.
 
@@ -40,7 +40,7 @@ The sender has sent a message via `sendMessage()`, and you successfully received
 live.on('init', msg => console.log('onMessage', msg))
 ```
 
-### onError
+## onError
 
 An error occurred.
 

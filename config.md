@@ -43,13 +43,13 @@ const config = {
 }
 ```
 
-{% embed url="https://console.elasticlive.io/" %}
+{% embed url="https://console.elasticlive.io/" caption="" %}
 
 ## Media
 
 More diverse options are offered regarding sound and video. They have the same specifications as constraints of WebRTC.
 
-{% embed url="https://developer.mozilla.org/en-US/docs/Web/API/Media\_Streams\_API/Constraints" %}
+{% embed url="https://developer.mozilla.org/en-US/docs/Web/API/Media\_Streams\_API/Constraints" caption="" %}
 
 ### Select Video, Audio
 
@@ -84,6 +84,4 @@ const config = {
   }
 }
 ```
-
-
 

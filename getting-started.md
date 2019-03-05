@@ -17,7 +17,7 @@ npx http-server
 # Open browser "localhost:8081"
 ```
 
-## Installing SDK - npm <a id="installing_sdk_npm"></a>
+## Installing SDK - npm  <a id="installing_sdk_npm"></a>
 
 You can easily install by using npm.
 
@@ -37,9 +37,9 @@ import ELive from '@elasticlive/sdk'
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-## Installing SDK - Static Import <a id="installing_sdk_static"></a>
+## Installing SDK - Static Import  <a id="installing_sdk_static"></a>
 
-You can use [jsDelivr CDN](https://www.jsdelivr.com). Please insert in the  HTML file as follows.
+You can use [jsDelivr CDN](https://www.jsdelivr.com). Please insert in the HTML file as follows.
 
 {% code-tabs %}
 {% code-tabs-item title="index.html" %}
@@ -57,13 +57,13 @@ You can use [jsDelivr CDN](https://www.jsdelivr.com). Please insert in the  HTML
 
 The actual running code is provided as follows. Check it out now.
 
-{% embed url="https://codesandbox.io/s/l7k87490n9" %}
+{% embed url="https://codesandbox.io/s/l7k87490n9" caption="" %}
 
 ### Service Key
 
 You need Service Id and Key. You may skip this step to simply test and demonstrate. In order to actually develop and run services, issue and apply Service Id and Key by referring to the Credential of the console.
 
-{% embed url="https://console.elasticlive.io/" %}
+{% embed url="https://console.elasticlive.io/" caption="" %}
 
 ### 1:N
 
