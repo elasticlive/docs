@@ -36,7 +36,7 @@ import ELive from '@elasticlive/sdk'
 <!-- Optional lib for lagacy WebRTC API support -->
 <script src="node_modules/webrtc-adapter/out/adapter.js"></script>
 
-<script src="node_modules/@elasticlive/sdk/dist/elive.min.js"></script>
+<script src="node_modules/@elasticlive/sdk/dist/ELive.min.js"></script>
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -52,10 +52,10 @@ You can use [jsDelivr CDN](https://www.jsdelivr.com). Please insert in the HTML 
 <script src="https://cdn.jsdelivr.net/npm/webrtc-adapter/out/adapter.js"></script>
 
 <!-- Latest -->
-<script src="https://cdn.jsdelivr.net/npm/@elasticlive/sdk/dist/elive.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@elasticlive/sdk"></script>
 
 <!-- Specific version -->
-<script src="https://cdn.jsdelivr.net/npm/@elasticlive/sdk@3.0.0/dist/elive.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@elasticlive/sdk@3.0.0/dist/ELive.min.js"></script>
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
