@@ -64,13 +64,13 @@ You can use [jsDelivr CDN](https://www.jsdelivr.com). Please insert in the HTML 
 
 The actual running code is provided as follows. Check it out now.
 
-{% embed url="https://codesandbox.io/s/l7k87490n9" caption="" %}
+{% embed url="https://codesandbox.io/s/j33qkq4o5v" %}
 
 ### Service Key
 
 You need Service Id and Key. You may skip this step to simply test and demonstrate. In order to actually develop and run services, issue and apply Service Id and Key by referring to the Credential of the console.
 
-{% embed url="https://console.elasticlive.io/" caption="" %}
+{% embed url="https://console.elasticlive.io" %}
 
 ### 1:N
 
